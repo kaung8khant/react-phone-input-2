@@ -809,7 +809,7 @@ class ReactPhoneInput extends React.Component {
           onKeyDown={this.handleInputKeyDown}
           placeholder={this.props.placeholder}
           disabled={true}
-          style={{cursor: "cursor: context-menu"}}
+          style={{cursor: "context-menu"}}
           type='tel'
           {...this.props.inputExtraProps}
         />
