@@ -808,7 +808,8 @@ class ReactPhoneInput extends React.Component {
           ref={el => this.numberInputRef = el}
           onKeyDown={this.handleInputKeyDown}
           placeholder={this.props.placeholder}
-          disabled={this.props.disabled}
+          disabled={true}
+          style={{cursor: "cursor: context-menu"}}
           type='tel'
           {...this.props.inputExtraProps}
         />
